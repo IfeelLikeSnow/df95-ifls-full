@@ -1,0 +1,23 @@
+DF95 V76 – FULL INTEGRATED REPO
+
+Dieses Repo wurde programmatisch zusammengeführt aus:
+
+- DF95_V73b_Repo_FULL_ReampSuite_Modular_SwitcherIntegrated.zip
+- DF95_V74_Repo_FULL_ReampSuite_PedalChainsPresetSystem.zip
+- DF95_V75_Repo_FULL_ReampSuite_PedalChains_IDM_Presets.zip
+- DF95_V76_Addon_SuperPipeline_ReampSuite_Integration.zip
+
+Merge-Regeln:
+- V73b als Basis
+- V74 über V73b (PedalChains Standard)
+- V75 über V74 (IDM-PedalChains + GUI + ReampSuite-Updates)
+- V76 Addon oben drauf (neues Script + Doku)
+- Dateien mit identischem Pfad werden jeweils von der späteren Version überschrieben.
+
+Ziel:
+- Komplettes DF95-Repo mit:
+    * SuperPipeline (bis V72 aus V73b-Basis)
+    * ReampSuite Modular + Toolbar-Switcher
+    * PedalChains Standard (V74)
+    * PedalChains IDM + GUI (V75)
+    * V76 SuperPipeline ⇄ ReampSuite Integrations-Script

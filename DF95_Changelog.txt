@@ -1,0 +1,39 @@
+[ v1.51 – FlowSync Precision ]
+- SmartCeiling 2.0: robust Ceiling-Set + Lookahead + Release pro Modus, FlowBus-Status
+- BiasEngine v2: Dedupe, ReaEQ-Band-Mapping, adaptive Q, tagging [DF95 Bias]
+- StatusOverlay v2: Auto-Hide (8s), PIN, klickbare Zonen (Bias/Ceiling/GainMatch)
+- LiveMode v2: Latenz-basierter Toggle (>1024 Samples)
+- Master-Presets ergänzt (LA/Release im Namen)
+
+[ v1.53 – FlowSync Precision XL ]
+- LUFS GainMatch Auto-Learn: Messfenster + Auto-Gain + FlowBus Publishing
+- Parallel FX Presets: IDM Split, Analog Glue, Granular, Creative FX (Auto-Routing)
+- Validator 2.1 GUI: Ampel-Status, Run/Report
+- Overlay zeigt LUFS-Delta wenn Auto-Learn aktiv
+
+[ v1.53b – Safety & Flow ]
+- Seed-Persistenz pro Projekt (ExtState("DF95_SEED", projectGUID)); Reseed reproduzierbar
+- SmartCeiling Profilbindung: Artists → -0.5 dBTP, Neutral → -0.1 dBTP (automatisch bei Bias-Wechsel aktiv)
+- Random-Preset-Weighting im FXBus (80% musical, 15% gritty, 5% extreme) + Overlay-Badge
+
+[ v1.53c – Bugfix & Safety ]
+- GUI guards: gfx.init() Safe-Init in allen GUI-Skripten
+- FlowBus dofile: pfadsicher via package.config/sep
+- FXChains: <FXCHAIN> Header standardisiert (UTF-8, ohne BOM)
+- Menu-Pfade normalisiert (Slashes)
+- TrackFX_GetFormattedParamValue: robustes Parsing (select(2), numeric extract)
+- SmartCeiling: TP-Safety (Auto-Nudge + Re-Check; TP_Status via FlowBus)
+- Seed: FlowBus-Publish vereinheitlicht
+
+[ v1.53d – Tidy & Hardened ]
+- Unified GUI safety guard for gfx.* scripts
+- Robust FlowBus include across all scripts (OS-agnostic path build)
+- FXChains normalized (<FXCHAIN> header, UTF-8 no BOM)
+- Menus: slashes normalized; unresolved script references surfaced
+- Formatted parameter reads hardened (select(2), numeric parse)
+
+[ v1.54 – Safety + QoL ]
+- SmartCeiling: True-Peak HARD Safety (toggle via MasterTools)
+- Overlay: H toggelt Minimal-Mode; Right-Drag repositionierbar
+- Parallel FX: Dry/Wet Macro (JS Smoother) als eigener Tool-Eintrag
+- Validator 2.2: schreibt *_fallback.rfxchain und GUI-Hotkey [W]

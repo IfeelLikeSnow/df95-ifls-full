@@ -1,0 +1,17 @@
+{
+  "features": {
+    "enable_experimental": false,
+    "enable_diagnostics": true
+  },
+  "compat": {
+    "mode": "auto"
+  },
+  "log": {
+    "to_console": true,
+    "to_file": true,
+    "level": "INFO"
+  },
+  "reapack": {
+    "df95_repo_index_url": ""
+  }
+}

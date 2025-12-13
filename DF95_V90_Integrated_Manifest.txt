@@ -1,0 +1,16 @@
+DF95 V90 – FULL INTEGRATED REPO (Meter/Meta-Release)
+SuperPipeline + ReampSuite + IDM PedalChains + AudioIntelligence 2.0 + Latency
++ Dashboard XL + AutoGain + OneClickReamp + AutoSession + StateEngine + AudioInt3
++ Analyzer Panel + BatchReampEngine + DashboardXL3 + SessionLog + FFT-Analyzer + AudioInt4.
+
+Zusammengeführt aus:
+  - DF95_V86_Repo_FULL_Integrated_Reconstructed_From_V76_2_plus_Addons.zip
+  - DF95_V87_DashboardXL3_Addon.zip
+  - DF95_V88_SessionLog_Addon.zip
+  - DF95_V89_AnalyzerFFT_Addon.zip
+  - DF95_V90_AudioInt4_Addon.zip
+
+Hinweis:
+  In dieser Umgebung basiert V90 auf dem rekonstruierten V86-Repo
+  (V76.2 FULL + spätere Add-ons), erweitert um die Meter-/AI-Layer V87–V90.
+

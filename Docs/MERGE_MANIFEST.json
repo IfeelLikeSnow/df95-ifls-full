@@ -1,0 +1,16 @@
+{
+  "scripts_count": 171,
+  "menus_count": 12,
+  "fxchains_count": 37,
+  "has_dropdowns": {
+    "fxbus": true,
+    "coloring": true,
+    "master": true
+  },
+  "has_audition": {
+    "fxbus": true,
+    "coloring": true,
+    "master": true
+  },
+  "has_sws_hook": true
+}

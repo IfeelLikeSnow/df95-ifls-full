@@ -1,0 +1,15 @@
+DF95 V86 – FULL INTEGRATED REPO (reconstruct)
+Basis: V76.2 FULL + V77 Dashboard + V78 AutoGain + V83–V86 Engine/Analyzer/Batch.
+
+Dieses Repo enthält:
+  - SuperPipeline + ReampSuite Integration (V76.2)
+  - ReampSuite Dashboard (V77)
+  - AutoGain (V78)
+  - SessionStateEngine (V83)
+  - AudioIntelligence3 Struct Layer (V84)
+  - Dashboard Analyzer Panel (V85)
+  - BatchReampEngine (V86)
+
+Hinweis:
+  Da in dieser Umgebung kein V82 FULL-Paket vorliegt, basiert dieses V86 FULL-Repo
+  auf dem letzten verfügbaren V76.2-Stand plus allen später generierten Add-ons.

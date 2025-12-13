@@ -1,0 +1,25 @@
+DF95 V76.2 – FULL INTEGRATED REPO (SuperPipeline + ReampSuite + IDM PedalChains + Intelligence + Latency AutoApply)
+
+Dieses Repo wurde programmatisch zusammengeführt aus:
+
+- DF95_V76_Repo_FULL_Integrated_SuperPipeline_ReampSuite.zip
+  (Basis: V73b + V74 + V75 + V76 SuperPipeline⇄ReampSuite Integration)
+- DF95_V76_1_PedalChains_Intelligence_Addon.zip
+  (V76.1: PedalChains Intelligence Layer für IDM-Presets)
+- DF95_V76_2_ReampSuite_LatencyAutoApply_Addon.zip
+  (V76.2: ReampSuite_ApplyLatencyOffset – automatisches Latenz-Align)
+
+Merge-Regeln (Priorität bei identischem Pfad):
+- V76 FULL REPO als Basis
+- V76.1 Addon überschreibt ältere DF95_V76_SuperPipeline.lua
+- V76.2 Addon ergänzt ReampSuite um ApplyLatencyOffset Script
+  (überschreibt nichts Kritisches, nur neue Datei + Doku)
+
+Ergebnis:
+- Komplettes DF95-Repo mit:
+    * SuperPipeline bis V72 integriert
+    * ReampSuite Modular + Toolbar-Switcher
+    * PedalChains Standard + IDM + GUI
+    * V76 SuperPipeline ⇄ ReampSuite Integration
+    * V76.1 PedalChains Intelligence (auto Chain-Key)
+    * V76.2 Latenz-AutoApply für ReampReturn-Items

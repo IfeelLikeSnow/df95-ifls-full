@@ -1,0 +1,4 @@
+DF95 v1.56z – Neuerungen
+- Humanize (Artist Bias) mit LUFS-Clamp ±1.3 LUFS
+- DF95_Help.json für Tooltips
+- Co-Toolbar (Edit & Creative) als separate Menuset-Datei
