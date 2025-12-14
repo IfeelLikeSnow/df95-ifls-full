@@ -759,7 +759,7 @@
       <metadata>
         <description>Tools folder (auto-discovered by Folder-Scan menus).</description>
       </metadata>
-      <version name="3.0.1" author="DF95" time="1765749873">
+      <version name="3.0.0" author="DF95" time="1765615306">
         <source file="Scripts/DF95Framework/Tools/DF95_StartupCheck.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/DF95Framework/Tools/DF95_StartupCheck.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName_v2.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName_v2.lua</source>
@@ -794,10 +794,7 @@
         <source file="Scripts/IFLS/DF95/Tools/DF95_Slicing_AutoPipeline.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Slicing_AutoPipeline.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Slicing_Browser_ImGui.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Slicing_Browser_ImGui.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_SWS_LUFS_Hook.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_SWS_LUFS_Hook.lua</source>
-      <changelog><![CDATA[v3.0.1
-- Add changelog entry
-- ReaPack packaging / canonical path hygiene pass
-]]></changelog></version>
+      </version>
     </reapack>
   </category>
   <category name="DF95/03 Catalogs">
@@ -805,7 +802,7 @@
       <metadata>
         <description>Data/Config catalogs (CSV/JSON) and supporting lookup tables.</description>
       </metadata>
-      <version name="3.0.1" author="DF95" time="1765749873">
+      <version name="3.0.0" author="DF95" time="1765615306">
         <source file="Config/DF95_MenuRegistry_v156.json">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Config/DF95_MenuRegistry_v156.json</source>
         <source file="Data/DF95/Audition_Durations_v1.json">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/DF95/Audition_Durations_v1.json</source>
         <source file="Data/DF95/BiasProfiles/BoC_Warm.json">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/DF95/BiasProfiles/BoC_Warm.json</source>
@@ -1015,10 +1012,7 @@
         <source file="Data/toolbar_icons/DF95/warm_flat/seed.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/toolbar_icons/DF95/warm_flat/seed.png</source>
         <source file="Data/toolbar_icons/DF95/warm_flat/slicing.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/toolbar_icons/DF95/warm_flat/slicing.png</source>
         <source file="Data/toolbar_icons/DF95/warm_flat/validator.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/toolbar_icons/DF95/warm_flat/validator.png</source>
-      <changelog><![CDATA[v3.0.1
-- Add changelog entry
-- ReaPack packaging / canonical path hygiene pass
-]]></changelog></version>
+      </version>
     </reapack>
   </category>
   <category name="DF95/04 Legacy">
@@ -1026,7 +1020,7 @@
       <metadata>
         <description>Legacy fallback scripts and legacy menu-set resources.</description>
       </metadata>
-      <version name="3.0.1" author="DF95" time="1765749873">
+      <version name="3.0.0" author="DF95" time="1765615306">
         <source file="Menus/Legacy_46c/DF95_MainToolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/Legacy_46c/DF95_MainToolbar.ReaperMenuSet</source>
         <source file="Scripts/IFLS/DF95/DF95_AIWorker_Hub_ImGui_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_AIWorker_Hub_ImGui_Legacy.lua</source>
         <source file="Scripts/IFLS/DF95/DF95_Menu_Artist_Dropdown_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_Menu_Artist_Dropdown_Legacy.lua</source>
@@ -1037,10 +1031,7 @@
         <source file="Scripts/IFLS/DF95/DF95_Menu_Parallel_Dropdown_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_Menu_Parallel_Dropdown_Legacy.lua</source>
         <source file="Scripts/IFLS/DF95/DF95_Menu_SlicingEdit_Hub_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_Menu_SlicingEdit_Hub_Legacy.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Menu_FXBus_Dropdown_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Menu_FXBus_Dropdown_Legacy.lua</source>
-      <changelog><![CDATA[v3.0.1
-- Add changelog entry
-- ReaPack packaging / canonical path hygiene pass
-]]></changelog></version>
+      </version>
     </reapack>
   </category>
   <category name="DF95/05 Resources">
@@ -1308,210 +1299,6 @@
         <source file="Effects/DF95_ReampSuite_Analyzer_FFT.jsfx">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Effects/DF95_ReampSuite_Analyzer_FFT.jsfx</source>
         <source file="Effects/IFLS/IFLS/IFLS_MIDIProcessor.jsfx">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Effects/IFLS/IFLS/IFLS_MIDIProcessor.jsfx</source>
         <source file="Effects/IFLS/IFLS_Drum_RR_Velocity_Mapper_Phase112.jsfx">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Effects/IFLS/IFLS_Drum_RR_Velocity_Mapper_Phase112.jsfx</source>
-        <source file="FXChains/COLOR_Coloring_Standard.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/COLOR_Coloring_Standard.RfxChain</source>
-        <source file="FXChains/Coloring_Standard.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/Coloring_Standard.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM/Bus_IDM_ClicksPops_Clean_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM/Bus_IDM_ClicksPops_Clean_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM/Bus_IDM_ClicksPops_Trash_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM/Bus_IDM_ClicksPops_Trash_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM/Bus_IDM_MicroPerc_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM/Bus_IDM_MicroPerc_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Hats_Air_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Hats_Air_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Hats_Air_Extreme_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Hats_Air_Extreme_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Hats_Air_Safe_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Hats_Air_Safe_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Kicks_Punch_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Kicks_Punch_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Kicks_Punch_Extreme_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Kicks_Punch_Extreme_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Kicks_Punch_Safe_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Kicks_Punch_Safe_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Snares_Snap_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Snares_Snap_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Snares_Snap_Extreme_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Snares_Snap_Extreme_01.RfxChain</source>
-        <source file="FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Snares_Snap_Safe_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Bus_IDM_Drums/Bus_IDM_Snares_Snap_Safe_01.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/AphexTwin/AT_Drukqs_Perc_Snap.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/AphexTwin/AT_Drukqs_Perc_Snap.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/AphexTwin/Color_AT_Drukqs_Perc_Snap.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/AphexTwin/Color_AT_Drukqs_Perc_Snap.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Arovane/Arovane_Airy_Scapes_Color.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Arovane/Arovane_Airy_Scapes_Color.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Arovane/Color_Arovane_Airy_Scapes_Color.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Arovane/Color_Arovane_Airy_Scapes_Color.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Autechre/AE_MetalFM_Crunch_Bus.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Autechre/AE_MetalFM_Crunch_Bus.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Autechre/AE_Sparse_Glitch_Glue.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Autechre/AE_Sparse_Glitch_Glue.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Autechre/Color_AE_MetalFM_Crunch_Bus.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Autechre/Color_AE_MetalFM_Crunch_Bus.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Autechre/Color_AE_Sparse_Glitch_Glue.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Autechre/Color_AE_Sparse_Glitch_Glue.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/BoardsOfCanada/BoC_Sunny_Tape_Glow.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/BoardsOfCanada/BoC_Sunny_Tape_Glow.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/BoardsOfCanada/Color_BoC_Sunny_Tape_Glow.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/BoardsOfCanada/Color_BoC_Sunny_Tape_Glow.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Moderat/Color_Moderat_Minimal_FilmTone.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Moderat/Color_Moderat_Minimal_FilmTone.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Moderat/Moderat_Minimal_FilmTone.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Moderat/Moderat_Minimal_FilmTone.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Plaid/Color_Plaid_Warm_Chords_Shimmer.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Plaid/Color_Plaid_Warm_Chords_Shimmer.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Plaid/Plaid_Warm_Chords_Shimmer.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Plaid/Plaid_Warm_Chords_Shimmer.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Proem/Color_Proem_Grain_SoftSat.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Proem/Color_Proem_Grain_SoftSat.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Proem/Proem_Grain_SoftSat.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Proem/Proem_Grain_SoftSat.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Squarepusher/Color_SP_JazzBass_Drive_Glue.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Squarepusher/Color_SP_JazzBass_Drive_Glue.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/Squarepusher/SP_JazzBass_Drive_Glue.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/Squarepusher/SP_JazzBass_Drive_Glue.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/uZiq/Color_uZiq_Bright_IDM_Glue.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/uZiq/Color_uZiq_Bright_IDM_Glue.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Artists/uZiq/uZiq_Bright_IDM_Glue.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Artists/uZiq/uZiq_Bright_IDM_Glue.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/BoC/Color_BoC_Derez_DitherTape7.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/BoC/Color_BoC_Derez_DitherTape7.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Glitch/Color_Glitch_Burier_Density2.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Glitch/Color_Glitch_Burier_Density2.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/HighDef/Color_Modern_AO_BritPre_Fetish.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/HighDef/Color_Modern_AO_BritPre_Fetish.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/IDM/Color_IDM_Pressure3_DeRez.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/IDM/Color_IDM_Pressure3_DeRez.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Neutral/Color_Reference_NeutralGain_Capacitor.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Neutral/Color_Reference_NeutralGain_Capacitor.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Spectral/Color_Spectral_Spread_Air_Ambi.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Spectral/Color_Spectral_Spread_Air_Ambi.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Warm/Color_WarmTape_Pressure4_ToTape8.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Warm/Color_WarmTape_Pressure4_ToTape8.RfxChain</source>
-        <source file="FXChains/DF95/Coloring/Wide/Color_Wide_ToTape8_Console8.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Coloring/Wide/Color_Wide_ToTape8_Console8.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/BeatRepeat_TimeWarp.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/BeatRepeat_TimeWarp.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/DF95_FXBus_BeatRepeat_TimeWarp.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/DF95_FXBus_BeatRepeat_TimeWarp.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/DF95_FXBus_Fallback_GlitchSeed.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/DF95_FXBus_Fallback_GlitchSeed.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/DF95_FXBus_Glitch_Granular_Heavy.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/DF95_FXBus_Glitch_Granular_Heavy.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/DF95_FXBus_Glitch_Granular_Light.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/DF95_FXBus_Glitch_Granular_Light.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/DF95_FXBus_IDM_Randomized_Base.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/DF95_FXBus_IDM_Randomized_Base.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/Glitch_Granular_Heavy.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/Glitch_Granular_Heavy.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/Glitch_Granular_Light.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/Glitch_Granular_Light.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_BitMorph_Pulse.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_BitMorph_Pulse.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_FilterGate_RhythmGlitch.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_FilterGate_RhythmGlitch.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_FilterMatrix_Looper.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_FilterMatrix_Looper.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_GlitchGranular_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_GlitchGranular_01.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_IDMHybrid_MorphGrid.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_IDMHybrid_MorphGrid.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PitchStep_Glitch.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PitchStep_Glitch.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PitchWobble_ModSync.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PitchWobble_ModSync.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PitchWobble_ModSync_Safe.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PitchWobble_ModSync_Safe.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PulseSync_Warp.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_PulseSync_Warp.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_SpectralDeform_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_SpectralDeform_01.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_StutterMorph_IDM.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch/DF95_FXBus_StutterMorph_IDM.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_BitMorph_Pulse_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_BitMorph_Pulse_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_FilterGate_RhythmGlitch_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_FilterGate_RhythmGlitch_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_FilterMatrix_Looper_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_FilterMatrix_Looper_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_GlitchGranular_01_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_GlitchGranular_01_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_IDMHybrid_MorphGrid_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_IDMHybrid_MorphGrid_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_PitchStep_Glitch_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_PitchStep_Glitch_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_PitchWobble_ModSync_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_PitchWobble_ModSync_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_PulseSync_Warp_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_PulseSync_Warp_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_SpectralDeform_01_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_SpectralDeform_01_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_StutterMorph_IDM_CLEAN.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_CLEAN/DF95_FXBus_StutterMorph_IDM_CLEAN.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_BitMorph_Pulse_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_BitMorph_Pulse_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_FilterGate_RhythmGlitch_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_FilterGate_RhythmGlitch_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_FilterMatrix_Looper_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_FilterMatrix_Looper_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_GlitchGranular_01_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_GlitchGranular_01_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_IDMHybrid_MorphGrid_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_IDMHybrid_MorphGrid_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_PitchStep_Glitch_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_PitchStep_Glitch_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_PitchWobble_ModSync_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_PitchWobble_ModSync_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_PulseSync_Warp_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_PulseSync_Warp_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_SpectralDeform_01_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_SpectralDeform_01_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_StutterMorph_IDM_EXTREME.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_EXTREME/DF95_FXBus_StutterMorph_IDM_EXTREME.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_BitMorph_Pulse_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_BitMorph_Pulse_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_FilterGate_RhythmGlitch_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_FilterGate_RhythmGlitch_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_FilterMatrix_Looper_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_FilterMatrix_Looper_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_GlitchGranular_01_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_GlitchGranular_01_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_IDMHybrid_MorphGrid_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_IDMHybrid_MorphGrid_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_PitchStep_Glitch_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_PitchStep_Glitch_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_PitchWobble_ModSync_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_PitchWobble_ModSync_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_PulseSync_Warp_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_PulseSync_Warp_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_SpectralDeform_01_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_SpectralDeform_01_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_StutterMorph_IDM_LIVE.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Glitch_LIVE/DF95_FXBus_StutterMorph_IDM_LIVE.RfxChain</source>
-        <source file="FXChains/DF95/FXBus/IDM_Randomized_Base.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/FXBus/IDM_Randomized_Base.RfxChain</source>
-        <source file="FXChains/DF95/Master/Artist_Neutral_Soft.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Artist_Neutral_Soft.RfxChain</source>
-        <source file="FXChains/DF95/Master/BoC/Master_BoC_Vintage_TapeSoft.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/BoC/Master_BoC_Vintage_TapeSoft.RfxChain</source>
-        <source file="FXChains/DF95/Master/Club_Safe_Loud.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Club_Safe_Loud.RfxChain</source>
-        <source file="FXChains/DF95/Master/DF95_Master_Fallback_Neutral.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/DF95_Master_Fallback_Neutral.RfxChain</source>
-        <source file="FXChains/DF95/Master/IDM/Master_IDM_Transientsafe_Clean.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/IDM/Master_IDM_Transientsafe_Clean.RfxChain</source>
-        <source file="FXChains/DF95/Master/Master_Artist_Neutral_Soft.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Master_Artist_Neutral_Soft.RfxChain</source>
-        <source file="FXChains/DF95/Master/Master_Club_Safe_Loud.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Master_Club_Safe_Loud.RfxChain</source>
-        <source file="FXChains/DF95/Master/Master_DF95_Master_Fallback_Neutral.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Master_DF95_Master_Fallback_Neutral.RfxChain</source>
-        <source file="FXChains/DF95/Master/Master_Neutral_SafeGain.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Master_Neutral_SafeGain.RfxChain</source>
-        <source file="FXChains/DF95/Master/Modern/Master_Modern_Loud_Burier_Air.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Modern/Master_Modern_Loud_Burier_Air.RfxChain</source>
-        <source file="FXChains/DF95/Master/Neutral/Master_Neutral_SafeGain_Limiter.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Neutral/Master_Neutral_SafeGain_Limiter.RfxChain</source>
-        <source file="FXChains/DF95/Master/Neutral_SafeGain.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Neutral_SafeGain.RfxChain</source>
-        <source file="FXChains/DF95/Master/Spectral/Master_Spectral_Balance.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Spectral/Master_Spectral_Balance.RfxChain</source>
-        <source file="FXChains/DF95/Master/Warm/Master_AO_WarmBus_ToTape8.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Warm/Master_AO_WarmBus_ToTape8.RfxChain</source>
-        <source file="FXChains/DF95/Master/Wide/Master_Wide_Console8_Finalizer.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Master/Wide/Master_Wide_Console8_Finalizer.RfxChain</source>
-        <source file="FXChains/DF95/Mic/DF95_Mic_Fallback_Clean.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/DF95_Mic_Fallback_Clean.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_B1_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_B1_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_C2_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_C2_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_C2_Stereo.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_C2_Stereo.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_CM300_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_CM300_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_CM300_Stereo.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_CM300_Stereo.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_Cortado_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_Cortado_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_Cortado_Stereo.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_Cortado_Stereo.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_DF95_Mic_Fallback_Clean.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_DF95_Mic_Fallback_Clean.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_Ether_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_Ether_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_Geofon_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_Geofon_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_MCM_Telecoil_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_MCM_Telecoil_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_MCM_Telecoil_Stereo.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_MCM_Telecoil_Stereo.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_MD400_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_MD400_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_Mono_Outdoor_WindSafe.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_Mono_Outdoor_WindSafe.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_NTG4Plus_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_NTG4Plus_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_Stereo_Pair_Safe.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_Stereo_Pair_Safe.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_TGV35s_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_TGV35s_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mic_XM8500_Mono.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mic_XM8500_Mono.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Mono_Outdoor_WindSafe.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Mono_Outdoor_WindSafe.RfxChain</source>
-        <source file="FXChains/DF95/Mic/Stereo_Pair_Safe.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Mic/Stereo_Pair_Safe.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_AphexTwin_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_AphexTwin_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Apparat_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Apparat_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Arovane_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Arovane_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Autechre_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Autechre_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_BoC_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_BoC_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Bogdan_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Bogdan_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_FlyingLotus_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_FlyingLotus_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_JanJelinek_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_JanJelinek_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Jega_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Jega_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Monoceros_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Monoceros_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_MouseOnMars_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_MouseOnMars_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Plaid_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Plaid_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Proem_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Proem_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Squarepusher_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Squarepusher_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_Styrofoam_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_Styrofoam_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_TelefonTelAviv_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_TelefonTelAviv_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Artists_Granular/Slicing_ThomYorke_Granular_Medium_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Artists_Granular/Slicing_ThomYorke_Granular_Medium_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E3_8_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E3_8_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E4_12_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E4_12_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E5_12_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E5_12_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E5_16_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E5_16_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E5_8_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E5_8_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E7_12_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E7_12_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E7_16_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E7_16_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E9_16_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_Euclid/Slicing_Euclid_E9_16_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_IDM/Slicing_IDM_ClicksPops_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_IDM/Slicing_IDM_ClicksPops_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_IDM/Slicing_IDM_GlitchGrains_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_IDM/Slicing_IDM_GlitchGrains_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_IDM/Slicing_IDM_Hats_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_IDM/Slicing_IDM_Hats_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_IDM/Slicing_IDM_Kicks_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_IDM/Slicing_IDM_Kicks_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_IDM/Slicing_IDM_MicroPerc_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_IDM/Slicing_IDM_MicroPerc_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_IDM/Slicing_IDM_NoiseBursts_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_IDM/Slicing_IDM_NoiseBursts_01.RfxChain</source>
-        <source file="FXChains/DF95/Slicing_IDM/Slicing_IDM_Snares_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95/Slicing_IDM/Slicing_IDM_Snares_01.RfxChain</source>
-        <source file="FXChains/DF95_ArtistFX/DF95_ArtistFX_README.txt">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_ArtistFX/DF95_ArtistFX_README.txt</source>
-        <source file="FXChains/DF95_Coloring_Artist/Coloring_Alt_ArtPop.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Coloring_Artist/Coloring_Alt_ArtPop.RfxChain</source>
-        <source file="FXChains/DF95_Coloring_Artist/Coloring_Ambient_Smear.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Coloring_Artist/Coloring_Ambient_Smear.RfxChain</source>
-        <source file="FXChains/DF95_Coloring_Artist/Coloring_IDM_Abstract.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Coloring_Artist/Coloring_IDM_Abstract.RfxChain</source>
-        <source file="FXChains/DF95_Coloring_Artist/Coloring_IDM_Crunch.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Coloring_Artist/Coloring_IDM_Crunch.RfxChain</source>
-        <source file="FXChains/DF95_Coloring_Artist/Coloring_LoFi_Tape.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Coloring_Artist/Coloring_LoFi_Tape.RfxChain</source>
-        <source file="FXChains/DF95_Coloring_Artist/Coloring_Wonky_Groove.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Coloring_Artist/Coloring_Wonky_Groove.RfxChain</source>
-        <source file="FXChains/DF95_DroneFX_Rack_V1.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_DroneFX_Rack_V1.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_AphexTwin_IDM.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_AphexTwin_IDM.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_Autechre_Experimental.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_Autechre_Experimental.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_BoardsOfCanada.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_BoardsOfCanada.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_BrianEno_Ambient.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_BrianEno_Ambient.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_Burial_Lofi.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_Burial_Lofi.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_DJShadow_BoomBap.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_DJShadow_BoomBap.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_AliasingFoldback.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_AliasingFoldback.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_BitDustCloud.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_BitDustCloud.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_BitPhaseWarp.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_BitPhaseWarp.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_BrokenTapeBeat.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_BrokenTapeBeat.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_DigitalCrunch.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_DigitalCrunch.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_DrumResonantSpace.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_DrumResonantSpace.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_FMNoiseTexture.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_FMNoiseTexture.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_GranularPadWash.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_GranularPadWash.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_GranularScatter.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_GranularScatter.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_KickMangling.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_KickMangling.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_MetallicFSU.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_MetallicFSU.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_MicroGlitch.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_MicroGlitch.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_ResonantNotchMover.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_ResonantNotchMover.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_SmearReverseEcho.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_SmearReverseEcho.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_SnareSplatter.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_SnareSplatter.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_SpectralSmear.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_SpectralSmear.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_TimeWarpChop.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_TimeWarpChop.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_IDM_WideGlitchStereo.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_IDM_WideGlitchStereo.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_Skrillex_EDM.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_Skrillex_EDM.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_Artist/FXBus_Vangelis_Cinematic.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_Artist/FXBus_Vangelis_Cinematic.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_FieldRecorder_S24U_Atmos_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_FieldRecorder_S24U_Atmos_01.RfxChain</source>
-        <source file="FXChains/DF95_FXBus_FieldRecorder_S24U_Clean_01.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_FXBus_FieldRecorder_S24U_Clean_01.RfxChain</source>
-        <source file="FXChains/DF95_Master_Artist/Master_Alt_ArtPop.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Master_Artist/Master_Alt_ArtPop.RfxChain</source>
-        <source file="FXChains/DF95_Master_Artist/Master_Ambient_SoftCeiling.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Master_Artist/Master_Ambient_SoftCeiling.RfxChain</source>
-        <source file="FXChains/DF95_Master_Artist/Master_IDM_Abstract.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Master_Artist/Master_IDM_Abstract.RfxChain</source>
-        <source file="FXChains/DF95_Master_Artist/Master_IDM_Crunch.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Master_Artist/Master_IDM_Crunch.RfxChain</source>
-        <source file="FXChains/DF95_Master_Artist/Master_LoFi_TapeSafe.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Master_Artist/Master_LoFi_TapeSafe.RfxChain</source>
-        <source file="FXChains/DF95_Master_Artist/Master_Wonky_Groove.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/DF95_Master_Artist/Master_Wonky_Groove.RfxChain</source>
-        <source file="FXChains/MASTER_Safety_Highpass.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/MASTER_Safety_Highpass.RfxChain</source>
-        <source file="FXChains/Safety_Highpass.RfxChain">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/FXChains/Safety_Highpass.RfxChain</source>
         <source file="Icons/DF95_bias.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Icons/DF95_bias.png</source>
         <source file="Icons/DF95_bus.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Icons/DF95_bus.png</source>
         <source file="Icons/DF95_color.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Icons/DF95_color.png</source>
