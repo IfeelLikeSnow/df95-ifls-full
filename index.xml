@@ -747,11 +747,11 @@
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-fxtags.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-fxtags.ini</source>
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-jsfx.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-jsfx.ini</source>
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-vstplugins64.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-vstplugins64.ini</source>
-      <changelog><![CDATA[v3.0.1
+      <changelog>v3.0.1
 - ReaPack index hygiene: canonicalized paths (Core/, Tools/) and FX chain extension (.RfxChain)
-- Removed duplicate <source> entries to prevent 404 installs
+- Removed duplicate &lt;source&gt; entries to prevent 404 installs
 - Improves ReaPack reliability on case-sensitive GitHub raw URLs
-]]></changelog></version>
+</changelog></version>
     </reapack>
   </category>
   <category name="DF95/02 Tools">
@@ -759,7 +759,7 @@
       <metadata>
         <description>Tools folder (auto-discovered by Folder-Scan menus).</description>
       </metadata>
-      <version name="3.0.0" author="DF95" time="1765615306">
+      <version name="3.0.1" author="DF95" time="1765749873">
         <source file="Scripts/DF95Framework/Tools/DF95_StartupCheck.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/DF95Framework/Tools/DF95_StartupCheck.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName_v2.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Apply_MicFX_ByTrackName_v2.lua</source>
@@ -794,7 +794,10 @@
         <source file="Scripts/IFLS/DF95/Tools/DF95_Slicing_AutoPipeline.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Slicing_AutoPipeline.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Slicing_Browser_ImGui.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Slicing_Browser_ImGui.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_SWS_LUFS_Hook.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_SWS_LUFS_Hook.lua</source>
-      </version>
+      <changelog><![CDATA[v3.0.1
+- Add changelog entry
+- ReaPack packaging / canonical path hygiene pass
+]]></changelog></version>
     </reapack>
   </category>
   <category name="DF95/03 Catalogs">
@@ -802,7 +805,7 @@
       <metadata>
         <description>Data/Config catalogs (CSV/JSON) and supporting lookup tables.</description>
       </metadata>
-      <version name="3.0.0" author="DF95" time="1765615306">
+      <version name="3.0.1" author="DF95" time="1765749873">
         <source file="Config/DF95_MenuRegistry_v156.json">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Config/DF95_MenuRegistry_v156.json</source>
         <source file="Data/DF95/Audition_Durations_v1.json">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/DF95/Audition_Durations_v1.json</source>
         <source file="Data/DF95/BiasProfiles/BoC_Warm.json">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/DF95/BiasProfiles/BoC_Warm.json</source>
@@ -1012,7 +1015,10 @@
         <source file="Data/toolbar_icons/DF95/warm_flat/seed.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/toolbar_icons/DF95/warm_flat/seed.png</source>
         <source file="Data/toolbar_icons/DF95/warm_flat/slicing.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/toolbar_icons/DF95/warm_flat/slicing.png</source>
         <source file="Data/toolbar_icons/DF95/warm_flat/validator.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Data/toolbar_icons/DF95/warm_flat/validator.png</source>
-      </version>
+      <changelog><![CDATA[v3.0.1
+- Add changelog entry
+- ReaPack packaging / canonical path hygiene pass
+]]></changelog></version>
     </reapack>
   </category>
   <category name="DF95/04 Legacy">
@@ -1020,7 +1026,7 @@
       <metadata>
         <description>Legacy fallback scripts and legacy menu-set resources.</description>
       </metadata>
-      <version name="3.0.0" author="DF95" time="1765615306">
+      <version name="3.0.1" author="DF95" time="1765749873">
         <source file="Menus/Legacy_46c/DF95_MainToolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/Legacy_46c/DF95_MainToolbar.ReaperMenuSet</source>
         <source file="Scripts/IFLS/DF95/DF95_AIWorker_Hub_ImGui_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_AIWorker_Hub_ImGui_Legacy.lua</source>
         <source file="Scripts/IFLS/DF95/DF95_Menu_Artist_Dropdown_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_Menu_Artist_Dropdown_Legacy.lua</source>
@@ -1031,7 +1037,10 @@
         <source file="Scripts/IFLS/DF95/DF95_Menu_Parallel_Dropdown_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_Menu_Parallel_Dropdown_Legacy.lua</source>
         <source file="Scripts/IFLS/DF95/DF95_Menu_SlicingEdit_Hub_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/DF95_Menu_SlicingEdit_Hub_Legacy.lua</source>
         <source file="Scripts/IFLS/DF95/Tools/DF95_Menu_FXBus_Dropdown_Legacy.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Menu_FXBus_Dropdown_Legacy.lua</source>
-      </version>
+      <changelog><![CDATA[v3.0.1
+- Add changelog entry
+- ReaPack packaging / canonical path hygiene pass
+]]></changelog></version>
     </reapack>
   </category>
   <category name="DF95/05 Resources">
