@@ -623,9 +623,9 @@
         <source file="Scripts/IFLS/DF95/System/DF95_SmartFlow_AutoInstaller.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/System/DF95_SmartFlow_AutoInstaller.lua</source>
         <source file="Scripts/IFLS/DF95/System/DF95_Tooltip_Show.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/System/DF95_Tooltip_Show.lua</source>
         <source file="Scripts/IFLS/DF95/Tests/DF95_SmokeTest_1_0.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tests/DF95_SmokeTest_1_0.lua</source>
-        <source file="Scripts/IFLS/DF95/tools/DF95_Signature_Apply_JSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/tools/DF95_Signature_Apply_JSON.lua</source>
-        <source file="Scripts/IFLS/DF95/tools/DF95_Signature_Export_JSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/tools/DF95_Signature_Export_JSON.lua</source>
-        <source file="Scripts/IFLS/DF95/tools/DF95_Signature_GUI_ImGui.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/tools/DF95_Signature_GUI_ImGui.lua</source>
+        <source file="Scripts/IFLS/DF95/Tools/DF95_Signature_Apply_JSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Signature_Apply_JSON.lua</source>
+        <source file="Scripts/IFLS/DF95/Tools/DF95_Signature_Export_JSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Signature_Export_JSON.lua</source>
+        <source file="Scripts/IFLS/DF95/Tools/DF95_Signature_GUI_ImGui.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Tools/DF95_Signature_GUI_ImGui.lua</source>
         <source file="Scripts/IFLS/DF95_Slicing/DF95_Slicing_Master_Menu.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95_Slicing/DF95_Slicing_Master_Menu.lua</source>
         <source file="Scripts/IFLS/IFLS/Core/IFLS_Contracts.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/IFLS/Core/IFLS_Contracts.lua</source>
         <source file="Scripts/IFLS/IFLS/Core/IFLS_ExtState.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/IFLS/Core/IFLS_ExtState.lua</source>
