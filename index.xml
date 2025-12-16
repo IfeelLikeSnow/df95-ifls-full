@@ -1498,11 +1498,11 @@
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-jsfx.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-jsfx.ini</source>
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-vstplugins64.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-vstplugins64.ini</source>
       <source file="Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua">https://raw.githubusercontent.com/ifeellikesnow/df95-ifls/main/Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua</source></version>
-    <version name="3.0.5" author="DF95" time="1765874599">
+    <version name="3.0.6" author="DF95" time="1765883762">
         <changelog><![CDATA[
-- Fix IFLS Main Toolbar builder: write valid ReaperMenuSet toolbar item syntax (non-empty after import)
-- Keep OneClick installer (theme + toolbars bootstrap)
-- ReaPack: version bump to ensure updated installer tools are downloaded
+- Add fixed IFLS Main Toolbar MenuSet (importable, non-empty)
+- Keep OneClick + builder tools in Core
+- ReaPack: version bump to deliver updated MenuSets resource
 ]]></changelog><source file="Menus/DF95_AI_Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_AI_Toolbar.ReaperMenuSet</source>
         <source file="Menus/DF95_CoToolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_CoToolbar.ReaperMenuSet</source>
         <source file="Menus/DF95_CoToolbar_Context.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_CoToolbar_Context.ReaperMenuSet</source>
@@ -2244,7 +2244,7 @@
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-fxtags.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-fxtags.ini</source>
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-jsfx.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-jsfx.ini</source>
         <source file="Support/DF95_FX_Environment_Snapshot/reaper-vstplugins64.ini">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Support/DF95_FX_Environment_Snapshot/reaper-vstplugins64.ini</source>
-      <source file="Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua</source><source file="Scripts/IFLS/DF95/Installers/DF95_Build_IFLS_Main_Toolbar_MenuSet.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Installers/DF95_Build_IFLS_Main_Toolbar_MenuSet.lua</source></version>
+      <source file="Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua</source><source file="Scripts/IFLS/DF95/Installers/DF95_Build_IFLS_Main_Toolbar_MenuSet.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/IFLS/DF95/Installers/DF95_Build_IFLS_Main_Toolbar_MenuSet.lua</source><source file="MenuSets/IFLS_Main.Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/IFLS_Main.Toolbar.ReaperMenuSet</source></version>
     </reapack>
   </category>
   <category name="DF95/02 Tools">
