@@ -1,2 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
-<reapack><name>DF95 IFLS Toolkit (Full Auto Index)</name><version>3.1.0</version><author>IfeelLikeSnow</author><about>Autogenerierter vollständiger Index aus dem DF95 IFLS Full GitHub Repo.</about><provides /></reapack>
+<?xml version="1.0" ?>
+<reapack>
+  <name>DF95 IFLS Core</name>
+  <version>1.0.0</version>
+  <author>IfeelLikeSnow</author>
+  <about>Core scripts and toolbars for IFLS Toolkit</about>
+  <provides>
+    <file>Scripts/IfeelLikeSnow/DF95/DF95_MetaCore_VST_All_Flat.lua</file>
+    <file>Scripts/IfeelLikeSnow/DF95/DF95_SynthMetaCore_v2_7.lua</file>
+    <file>MenuSets/IFLS_Main.Toolbar.ReaperMenuSet</file>
+  </provides>
+  <source file="MenuSets/IFLS_Main.Toolbar.ReaperMenuSet" type="github">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/MenuSets/IFLS_Main.Toolbar.ReaperMenuSet</source>
+</reapack>
