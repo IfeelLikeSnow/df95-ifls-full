@@ -1,0 +1,50 @@
+[1mdiff --git a/index.xml b/index.xml[m
+[1mindex 1a8642c..d8b0963 100644[m
+[1m--- a/index.xml[m
+[1m+++ b/index.xml[m
+[36m@@ -751,7 +751,753 @@[m
+ - ReaPack index hygiene: canonicalized paths (Core/, Tools/) and FX chain extension (.RfxChain)[m
+ - Removed duplicate &lt;source&gt; entries to prevent 404 installs[m
+ - Improves ReaPack reliability on case-sensitive GitHub raw URLs[m
+[31m-</changelog><source file="Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua">https://raw.githubusercontent.com/ifeellikesnow/df95-ifls/main/Scripts/IFLS/DF95/Installers/DF95_OneClick_Setup_Theme_Toolbars_IFLS_Main.lua</source></version>[m
+[32m+[m[32m</changelog></version>[m
+[32m+[m[32m    <version name="3.0.2" author="DF95" time="1765837115">[m
+[32m+[m[32m        <changelog><![CDATA[[m
+[32m+[m[32m- Add OneClick installer for DF95/IFLS (theme + toolbars bootstrap)[m
+[32m+[m[32m- ReaPack: version bump to ensure installer is downloaded on update[m
+[32m+[m[32m]]></changelog><source file="Menus/DF95_AI_Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_AI_Toolbar.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_CoToolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_CoToolbar.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_CoToolbar_Context.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_CoToolbar_Context.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_CoToolbar_EditCreative.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_CoToolbar_EditCreative.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_CoToolbar_FlowErgo_Pro.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_CoToolbar_FlowErgo_Pro.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_EditToolbar_Arrange.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_EditToolbar_Arrange.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_MainToolbar_FlowErgo.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_MainToolbar_FlowErgo.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_MainToolbar_FlowErgo_Hub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_MainToolbar_FlowErgo_Hub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_MainToolbar_FlowErgo_Pro.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_MainToolbar_FlowErgo_Pro.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_MicToolbar_Input.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_MicToolbar_Input.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_QA_Toolbar_Safety.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_QA_Toolbar_Safety.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_Reamp_Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_Reamp_Toolbar.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperPipeline_Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperPipeline_Toolbar.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_AISEARCH_Sub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_AISEARCH_Sub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_DRONES_Sub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_DRONES_Sub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_FIELDREC_Sub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_FIELDREC_Sub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_LIBEXPORT_Sub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_LIBEXPORT_Sub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_Main.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_Main.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_SESSION_Sub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_SESSION_Sub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_SETUPQA_Sub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_SETUPQA_Sub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_SuperToolbar_SOUND_Sub.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_SuperToolbar_SOUND_Sub.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_Toolbar_BiasTools.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_Toolbar_BiasTools.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_Toolbar_ColorMaster_Audition_SWS.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_Toolbar_ColorMaster_Audition_SWS.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_Toolbar_FXBus_Variants.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_Toolbar_FXBus_Variants.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_Toolbar_QA_Audition.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_Toolbar_QA_Audition.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_V113_ArtistStyleFX_Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_V113_ArtistStyleFX_Toolbar.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="Menus/DF95_V119_SampleDB_Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Menus/DF95_V119_SampleDB_Toolbar.ReaperMenuSet</source>[m
+[32m+[m[32m        <source file="MenuSets/DF95_Fieldrec_Export.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/DF95_Fieldrec_Export.Toolbar.ReaperMenu</source>[m
+[32m+[m[32m        <source file="MenuSets/DF95_Fieldrec_ToolbarV2.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/DF95_Fieldrec_ToolbarV2.Toolbar.ReaperMenu</source>[m
+[32m+[m[32m        <source file="MenuSets/IFLS_Beat.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/IFLS_Beat.Toolbar.ReaperMenu</source>[m
+[32m+[m[32m        <source file="MenuSets/IFLS_Debug.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/IFLS_Debug.Toolbar.ReaperMenu</source>[m
+[32m+[m[32m        <source file="MenuSets/IFLS_Main.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/IFLS_Main.Toolbar.ReaperMenu</source>[m
+[32m+[m[32m        <source file="MenuSets/IFLS_Phase94_Integration_Notes.txt">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/IFLS_Phase94_Integration_Notes.txt</source>[m
+[32m+[m[32m        <source file="MenuSets/IFLS_Sample.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/MenuSets/IFLS_Sample.Toolbar.ReaperMenu</source>[m
+[32m+[m[32m        <source file="Scripts/DF95_IFLS_Repo_Installer_RealPath_SelfTest.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls/main/Scripts/DF95_IFLS_Repo_Installer_RealPath_SelfTest.lua</source>[m
+[32m+[m[32m        <source file="
