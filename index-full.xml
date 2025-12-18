@@ -6500,8 +6500,9 @@
         <source file="Scripts/X-Raym Scripts/Web Interfaces/X-Raym_Convert region subtitles for dedicated web browser interface.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/X-Raym%20Scripts/Web%20Interfaces/X-Raym_Convert%20region%20subtitles%20for%20dedicated%20web%20browser%20interface.lua</source>
         <source file="Scripts/sws_python.py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/sws_python.py</source>
         <source file="Scripts/sws_python64.py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/sws_python64.py</source>
-        <source file="Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua</source>
-      </version>
+      
+  <source file="Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua</source>
+</version>
     </reapack>
   </category>
 </index>
