@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="DF95 IFLS V3">
   <category name="DF95 IFLS V3">
-    <reapack name="DF95 IFLS V3 - Full">
+          <reapack name="DF95 IFLS InstallDoctor">
+        <version name="1.0.0" author="DF95" time="1766092885">
+          <source file="Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua">
+https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua
+          </source>
+          <description><![CDATA[
+Install/repair helper that creates required root shims and fixes common IFLS path issues.
+]]></description>
+        </version>
+      </reapack>
+<reapack name="DF95 IFLS V3 - Full">
       <version name="3.0.10" author="IfeelLikeSnow">
         <changelog>
           - Full repository feed (single package)
