@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="DF95 IFLS V3">
   <category name="DF95 IFLS V3">
-    <reapack name="DF95 IFLS V3 - Full">
-      <version name="3.0.11" author="IfeelLikeSnow">
-        <changelog>
-          - Full repository feed (single package)
-          - Fix: avoid invalid package names by not generating one package per file
-          - Includes root shims and full Scripts tree
-        </changelog>
+    <reapack name="DF95 IFLS V3 - Resources">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 7</changelog>
         <source file="MenuSets/DF95_Fieldrec_Export.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/MenuSets/DF95_Fieldrec_Export.Toolbar.ReaperMenu</source>
         <source file="MenuSets/DF95_Fieldrec_ToolbarV2.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/MenuSets/DF95_Fieldrec_ToolbarV2.Toolbar.ReaperMenu</source>
         <source file="MenuSets/IFLS_Beat.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/MenuSets/IFLS_Beat.Toolbar.ReaperMenu</source>
@@ -15,6 +12,28 @@
         <source file="MenuSets/IFLS_Main.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/MenuSets/IFLS_Main.Toolbar.ReaperMenu</source>
         <source file="MenuSets/IFLS_Main.Toolbar.ReaperMenuSet">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/MenuSets/IFLS_Main.Toolbar.ReaperMenuSet</source>
         <source file="MenuSets/IFLS_Sample.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/MenuSets/IFLS_Sample.Toolbar.ReaperMenu</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts (root)">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 10</changelog>
+        <source file="Scripts/DF95_Dump_All_FX_Params_V3_1_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Dump_All_FX_Params_V3_1_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua</source>
+        <source file="Scripts/DF95_Dump_All_FX_Params_V3_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Dump_All_FX_Params_V3_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua</source>
+        <source file="Scripts/DF95_IFLS_Module_Diagnose.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_IFLS_Module_Diagnose.lua</source>
+        <source file="Scripts/DF95_IFLS_Repo_Installer_RealPath_SelfTest.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_IFLS_Repo_Installer_RealPath_SelfTest.lua</source>
+        <source file="Scripts/DF95_List_Scripts_Tree.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_List_Scripts_Tree.lua</source>
+        <source file="Scripts/DF95_Resolve_Toolbar_Templates.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Resolve_Toolbar_Templates.lua</source>
+        <source file="Scripts/DF95_Toolbar_ID_Map.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Toolbar_ID_Map.lua</source>
+        <source file="Scripts/sws_python.py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/sws_python.py</source>
+        <source file="Scripts/sws_python64.py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/sws_python64.py</source>
+        <source file="Scripts/DF95_IFLS_Rebuild_Toolbar_MenuSet.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_IFLS_Rebuild_Toolbar_MenuSet.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: Cockos">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 451</changelog>
         <source file="Scripts/Cockos/Default_6.0_theme_adjuster.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/Cockos/Default_6.0_theme_adjuster.lua</source>
         <source file="Scripts/Cockos/Default_6.0_theme_adjuster_images/apply_100.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/Cockos/Default_6.0_theme_adjuster_images/apply_100.png</source>
         <source file="Scripts/Cockos/Default_6.0_theme_adjuster_images/apply_100@2x.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/Cockos/Default_6.0_theme_adjuster_images/apply_100%402x.png</source>
@@ -466,6 +485,12 @@
         <source file="Scripts/Cockos/Default_7.0_theme_adjuster_images/vEdge_resize_150.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/Cockos/Default_7.0_theme_adjuster_images/vEdge_resize_150.png</source>
         <source file="Scripts/Cockos/Default_7.0_theme_adjuster_images/vEdge_resize_200.png">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/Cockos/Default_7.0_theme_adjuster_images/vEdge_resize_200.png</source>
         <source file="Scripts/Cockos/lyrics.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/Cockos/lyrics.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: DF95 IFLS V3">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 1291</changelog>
         <source file="Scripts/DF95 IFLS V3/DF95/01 Core/MenuSets/DF95_Fieldrec_Export.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95%20IFLS%20V3/DF95/01%20Core/MenuSets/DF95_Fieldrec_Export.Toolbar.ReaperMenu</source>
         <source file="Scripts/DF95 IFLS V3/DF95/01 Core/MenuSets/DF95_Fieldrec_ToolbarV2.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95%20IFLS%20V3/DF95/01%20Core/MenuSets/DF95_Fieldrec_ToolbarV2.Toolbar.ReaperMenu</source>
         <source file="Scripts/DF95 IFLS V3/DF95/01 Core/MenuSets/IFLS_Beat.Toolbar.ReaperMenu">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95%20IFLS%20V3/DF95/01%20Core/MenuSets/IFLS_Beat.Toolbar.ReaperMenu</source>
@@ -1757,6 +1782,12 @@
         <source file="Scripts/DF95 IFLS V3/DF95/05 Resources/_selectors/Scripts/IfeelLikeSnow/DF95/DF95_FXBus_Selector.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95%20IFLS%20V3/DF95/05%20Resources/_selectors/Scripts/IfeelLikeSnow/DF95/DF95_FXBus_Selector.lua</source>
         <source file="Scripts/DF95 IFLS V3/DF95/05 Resources/_selectors/Scripts/IfeelLikeSnow/DF95/DF95_IDM_DrumSetup.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95%20IFLS%20V3/DF95/05%20Resources/_selectors/Scripts/IfeelLikeSnow/DF95/DF95_IDM_DrumSetup.lua</source>
         <source file="Scripts/DF95 IFLS V3/DF95/05 Resources/_selectors/Scripts/IfeelLikeSnow/DF95/DF95_MasterBus_Selector.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95%20IFLS%20V3/DF95/05%20Resources/_selectors/Scripts/IfeelLikeSnow/DF95/DF95_MasterBus_Selector.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: DF95Framework">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 21</changelog>
         <source file="Scripts/DF95Framework/Lib/DF95_Config.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95Framework/Lib/DF95_Config.lua</source>
         <source file="Scripts/DF95Framework/Lib/DF95_Core.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95Framework/Lib/DF95_Core.lua</source>
         <source file="Scripts/DF95Framework/Lib/DF95_Diagnostics_Lib_DepScanner.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95Framework/Lib/DF95_Diagnostics_Lib_DepScanner.lua</source>
@@ -1778,19 +1809,30 @@
         <source file="Scripts/DF95Framework/Templates/README_MenuBuilder.txt">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95Framework/Templates/README_MenuBuilder.txt</source>
         <source file="Scripts/DF95Framework/Templates/README_V3_Templates.txt">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95Framework/Templates/README_V3_Templates.txt</source>
         <source file="Scripts/DF95Framework/Tools/DF95_StartupCheck.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95Framework/Tools/DF95_StartupCheck.lua</source>
-        <source file="Scripts/DF95_Dump_All_FX_Params_V3_1_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Dump_All_FX_Params_V3_1_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua</source>
-        <source file="Scripts/DF95_Dump_All_FX_Params_V3_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Dump_All_FX_Params_V3_EnumInstalledFX_PreferVST3_StrongMatch_Resume_CSV_NDJSON.lua</source>
-        <source file="Scripts/DF95_IFLS_Module_Diagnose.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_IFLS_Module_Diagnose.lua</source>
-        <source file="Scripts/DF95_IFLS_Repo_Installer_RealPath_SelfTest.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_IFLS_Repo_Installer_RealPath_SelfTest.lua</source>
-        <source file="Scripts/DF95_List_Scripts_Tree.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_List_Scripts_Tree.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: DF95_ParamDump">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 5</changelog>
         <source file="Scripts/DF95_ParamDump/failures.txt">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_ParamDump/failures.txt</source>
         <source file="Scripts/DF95_ParamDump/params.csv">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_ParamDump/params.csv</source>
         <source file="Scripts/DF95_ParamDump/plugins.csv">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_ParamDump/plugins.csv</source>
         <source file="Scripts/DF95_ParamDump/plugins.ndjson">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_ParamDump/plugins.ndjson</source>
         <source file="Scripts/DF95_ParamDump/progress.json">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_ParamDump/progress.json</source>
-        <source file="Scripts/DF95_Resolve_Toolbar_Templates.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Resolve_Toolbar_Templates.lua</source>
-        <source file="Scripts/DF95_Toolbar_ID_Map.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Toolbar_ID_Map.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: DF95_Toolbar_Placeholders.csv">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 1</changelog>
         <source file="Scripts/DF95_Toolbar_Placeholders.csv">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_Toolbar_Placeholders.csv</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: IFLS">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 782</changelog>
         <source file="Scripts/IFLS/DF95/Core/DF95_ChainLoader_WithSubstitutions.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Core/DF95_ChainLoader_WithSubstitutions.lua</source>
         <source file="Scripts/IFLS/DF95/Core/DF95_ColoringBus_Selector.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Core/DF95_ColoringBus_Selector.lua</source>
         <source file="Scripts/IFLS/DF95/Core/DF95_DeviceProfiles.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Core/DF95_DeviceProfiles.lua</source>
@@ -2572,6 +2614,13 @@
         <source file="Scripts/IFLS/MicFX/SOMA Ether V2.fxlist">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/MicFX/SOMA%20Ether%20V2.fxlist</source>
         <source file="Scripts/IFLS/MicFX/TG-V35S.fxlist">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/MicFX/TG-V35S.fxlist</source>
         <source file="Scripts/IFLS/MicFX/XM8500.fxlist">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/MicFX/XM8500.fxlist</source>
+        <source file="Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: MPL Scripts">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 693</changelog>
         <source file="Scripts/MPL Scripts/Automation Items/mpl_Convert selected envelope points to automation item.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/MPL%20Scripts/Automation%20Items/mpl_Convert%20selected%20envelope%20points%20to%20automation%20item.lua</source>
         <source file="Scripts/MPL Scripts/Automation Items/mpl_Generate pooled automation item for selected envelope from item audio.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/MPL%20Scripts/Automation%20Items/mpl_Generate%20pooled%20automation%20item%20for%20selected%20envelope%20from%20item%20audio.lua</source>
         <source file="Scripts/MPL Scripts/Automation Items/mpl_Insert 1 measure long automation item for last touched parameter.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/MPL%20Scripts/Automation%20Items/mpl_Insert%201%20measure%20long%20automation%20item%20for%20last%20touched%20parameter.lua</source>
@@ -3265,6 +3314,12 @@
         <source file="Scripts/MPL Scripts/Various/mpl_TaskScheduler.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/MPL%20Scripts/Various/mpl_TaskScheduler.lua</source>
         <source file="Scripts/MPL Scripts/Various/mpl_Transient shaper.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/MPL%20Scripts/Various/mpl_Transient%20shaper.lua</source>
         <source file="Scripts/MPL Scripts/Various/mpl_Visual Mixer.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/MPL%20Scripts/Various/mpl_Visual%20Mixer.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: ReaTeam Extensions">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 53</changelog>
         <source file="Scripts/ReaTeam Extensions/API/ReaBlink_Monitor.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Extensions/API/ReaBlink_Monitor.lua</source>
         <source file="Scripts/ReaTeam Extensions/API/ReaImGui_Demo.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Extensions/API/ReaImGui_Demo.lua</source>
         <source file="Scripts/ReaTeam Extensions/API/gfx2imgui.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Extensions/API/gfx2imgui.lua</source>
@@ -3318,7 +3373,19 @@
         <source file="Scripts/ReaTeam Extensions/Control Surfaces/Track Actions/Rename selected tracks (US-2400 - FKey - 4).py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Extensions/Control%20Surfaces/Track%20Actions/Rename%20selected%20tracks%20%28US-2400%20-%20FKey%20-%204%29.py</source>
         <source file="Scripts/ReaTeam Extensions/Control Surfaces/Track Actions/Ungroup selected tracks (US-2400 - Shift - 6).py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Extensions/Control%20Surfaces/Track%20Actions/Ungroup%20selected%20tracks%20%28US-2400%20-%20Shift%20-%206%29.py</source>
         <source file="Scripts/ReaTeam Extensions/Control Surfaces/Track Actions/Wrap or unwrap selected tracks (US-2400 - Shift - 1).py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Extensions/Control%20Surfaces/Track%20Actions/Wrap%20or%20unwrap%20selected%20tracks%20%28US-2400%20-%20Shift%20-%201%29.py</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: ReaTeam JSFX">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 1</changelog>
         <source file="Scripts/ReaTeam JSFX/MIDI/talagan_MIDI CC Mapper X/MIDI CC Mapper X - Dump Current Function.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20JSFX/MIDI/talagan_MIDI%20CC%20Mapper%20X/MIDI%20CC%20Mapper%20X%20-%20Dump%20Current%20Function.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: ReaTeam Scripts">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 2522</changelog>
         <source file="Scripts/ReaTeam Scripts/Cursor/BuyOne_Move edit cursor left to edge of Razor Edit area.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Scripts/Cursor/BuyOne_Move%20edit%20cursor%20left%20to%20edge%20of%20Razor%20Edit%20area.lua</source>
         <source file="Scripts/ReaTeam Scripts/Cursor/BuyOne_Move edit cursor left to edge of envelope Razor Edit area.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Scripts/Cursor/BuyOne_Move%20edit%20cursor%20left%20to%20edge%20of%20envelope%20Razor%20Edit%20area.lua</source>
         <source file="Scripts/ReaTeam Scripts/Cursor/BuyOne_Move edit cursor left to edge of item Razor Edit area.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Scripts/Cursor/BuyOne_Move%20edit%20cursor%20left%20to%20edge%20of%20item%20Razor%20Edit%20area.lua</source>
@@ -5841,6 +5908,12 @@
         <source file="Scripts/ReaTeam Scripts/View/talagan_Set leftmost dock size (500).lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Scripts/View/talagan_Set%20leftmost%20dock%20size%20%28500%29.lua</source>
         <source file="Scripts/ReaTeam Scripts/View/talagan_Set rightmost dock size (500).lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Scripts/View/talagan_Set%20rightmost%20dock%20size%20%28500%29.lua</source>
         <source file="Scripts/ReaTeam Scripts/View/talagan_Set topmost dock size (500).lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/ReaTeam%20Scripts/View/talagan_Set%20topmost%20dock%20size%20%28500%29.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DF95 IFLS V3 - Scripts: X-Raym Scripts">
+      <version name="3.0.11" author="IfeelLikeSnow" time="1766237270">
+        <changelog>- Auto-split package
+- Files: 657</changelog>
         <source file="Scripts/X-Raym Scripts/Color/X-Raym_Display color of selected tracks items and takes in the console.eel">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/X-Raym%20Scripts/Color/X-Raym_Display%20color%20of%20selected%20tracks%20items%20and%20takes%20in%20the%20console.eel</source>
         <source file="Scripts/X-Raym Scripts/Color/X-Raym_Select items with same color as mouse context (or first selected item) on selected tracks.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/X-Raym%20Scripts/Color/X-Raym_Select%20items%20with%20same%20color%20as%20mouse%20context%20%28or%20first%20selected%20item%29%20on%20selected%20tracks.lua</source>
         <source file="Scripts/X-Raym Scripts/Color/X-Raym_Set selected takes or items color from their visible color.eel">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/X-Raym%20Scripts/Color/X-Raym_Set%20selected%20takes%20or%20items%20color%20from%20their%20visible%20color.eel</source>
@@ -6498,15 +6571,7 @@
         <source file="Scripts/X-Raym Scripts/Web Interfaces/X-Raym_Convert first selected track items notes for scrolling web browser interface.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/X-Raym%20Scripts/Web%20Interfaces/X-Raym_Convert%20first%20selected%20track%20items%20notes%20for%20scrolling%20web%20browser%20interface.lua</source>
         <source file="Scripts/X-Raym Scripts/Web Interfaces/X-Raym_Convert region names for dedicated web browser interface.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/X-Raym%20Scripts/Web%20Interfaces/X-Raym_Convert%20region%20names%20for%20dedicated%20web%20browser%20interface.lua</source>
         <source file="Scripts/X-Raym Scripts/Web Interfaces/X-Raym_Convert region subtitles for dedicated web browser interface.lua">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/X-Raym%20Scripts/Web%20Interfaces/X-Raym_Convert%20region%20subtitles%20for%20dedicated%20web%20browser%20interface.lua</source>
-        <source file="Scripts/sws_python.py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/sws_python.py</source>
-        <source file="Scripts/sws_python64.py">https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/sws_python64.py</source>
-                    <source file="Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua">
-https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/IFLS/DF95/Installers/DF95_IFLS_InstallDoctor_CreateShims.lua
-              </source>
-          <source file="Scripts/DF95_IFLS_Rebuild_Toolbar_MenuSet.lua">
-https://raw.githubusercontent.com/IfeelLikeSnow/df95-ifls-full/main/Scripts/DF95_IFLS_Rebuild_Toolbar_MenuSet.lua
-          </source>
-</version>
+      </version>
     </reapack>
   </category>
 </index>
